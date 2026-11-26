@@ -451,22 +451,22 @@ footer {
 
 /* Training & Certifications Background */
 
+
 .training-section {
   position: relative;
-  background-image:
+
+  background:
     linear-gradient(
-      rgba(7, 17, 30, 0.88),
-      rgba(7, 17, 30, 0.94)
+      rgba(7, 17, 30, 0.72),
+      rgba(7, 17, 30, 0.88)
     ),
-    url("certificates-background.png");
+    url("./certificates-background.png");
 
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
-
-/* Keep training content above the background */
 
 .training-section .section-heading,
 .training-section .cards {
@@ -474,17 +474,7 @@ footer {
   z-index: 1;
 }
 
-/* Make training cards slightly transparent */
-
 .training-section .card {
   background: rgba(13, 29, 45, 0.88);
-  backdrop-filter: blur(4px);
-  border: 1px solid rgba(56, 217, 197, 0.22);
-}
-
-/* Improve card hover effect */
-
-.training-section .card:hover {
-  border-color: var(--accent);
-  background: rgba(13, 29, 45, 0.96);
+  border: 1px solid rgba(56, 217, 197, 0.3);
 }
